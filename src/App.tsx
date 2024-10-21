@@ -1,5 +1,5 @@
 import Routes from "./routes/Routes.tsx";
-import {GlobalStyle} from "./shared/GlobalStyle.ts";
+import {GlobalMain, GlobalStyle} from "./shared/GlobalStyle.ts";
 
 function App() {
 

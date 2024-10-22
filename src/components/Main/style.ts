@@ -6,7 +6,7 @@ export const Section = styled.section`
     max-width: 1000px;
     width: 100%;
     height: 400px;
-    background-color: grey;
+    background-color: #fff;
     display: flex;
     justify-content: space-around;
     border-radius: 30px;
@@ -21,19 +21,21 @@ export const ContainerConteudo = styled.div`
     max-width: 800px;
     width: 100%;
     height: 400px;
+   
 `;
 
 export const ContainerTitulo = styled.div`
-        color:#fff;
-        font-size:15px;
-        background-color: red;
-        max-width: 800px;
-        width: 100%;
+        color: #ec5353;
+        font-size:15px;    
         display: flex;
         justify-content: center;
+        
 `
 
 export const ContainerTexto = styled.div`
+
+    padding: 20px 20px;
+
     p{
         color: #000;
     }
@@ -41,5 +43,13 @@ export const ContainerTexto = styled.div`
 `
 
 export const ContainerBotao = styled.div`
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
     
+    h1{
+        padding: 20px;
+        background-color: orange;
+    }
 `

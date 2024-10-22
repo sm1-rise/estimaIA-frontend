@@ -9,6 +9,8 @@ export default function Routes(){
             path: "/home",
             element: <Home/>
         }
+
+        
     ]);
 
     return <RouterProvider router={routes}/>

@@ -16,7 +16,16 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const GlobalMain = styled.main`
+
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    margin-top: 100px;
+    //background-color: #ec5353;
+    background-color: #000;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+ 
 `

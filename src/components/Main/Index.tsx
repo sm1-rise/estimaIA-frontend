@@ -10,7 +10,6 @@ export default function Main(){
       <GlobalMain>
         <Section>
           <ContainerTitulo>
-            
             <h1>Bem vindo ao EstimaPoker</h1>
           </ContainerTitulo>
           <ContainerConteudo>

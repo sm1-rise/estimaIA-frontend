@@ -4,14 +4,14 @@ export const ButtonStyled = styled.button<{ bgColor?: string; color?: string }>`
   background-color: ${(props) => props.bgColor || '#007BFF'};
   color: ${(props) => props.color || '#FFFFFF'};
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   padding: 10px 15px;
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: ${(props) => props.bgColor ? lightenColor(props.bgColor, 0) : '#0056b3'};
+    background-color: ${(props) => props.bgColor ? lightenColor(props.bgColor, 20) : '#0056b3'};
   }
 `;
 

@@ -7,7 +7,8 @@ export default function Header(){
       <>
         <HeaderStyle>
             <ContainerHeader>
-                <img src={Logo} width={80}/>
+
+               <Link to ={"/home"}> <img src={Logo} width={80}/> </Link>
                 <Menu>
                     <ul>
                         <li>

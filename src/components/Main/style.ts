@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 
 export const Section = styled.section`
-    margin-top: 45px;
+
+    margin-top: 100px;
     max-width: 1000px;
     width: 100%;
-    height: 400px;
+    height: 200px;
     background-color: #fff;
     display: flex;
     justify-content: space-around;
@@ -43,13 +44,10 @@ export const ContainerTexto = styled.div`
 `
 
 export const ContainerBotao = styled.div`
-    background-color: #000;
-    color: #fff;
+   
+
     display: flex;
     justify-content: center;
-    
-    h1{
-        padding: 20px;
-        background-color: orange;
-    }
+    gap: 30px; 
+    align-items: center; 
 `

@@ -10,15 +10,16 @@ export default function Main(){
       <GlobalMain>
         <Section>
           <ContainerTitulo>
+            
             <h1>Bem vindo ao EstimaPoker</h1>
           </ContainerTitulo>
           <ContainerConteudo>
             <ContainerTexto>
-              <p>EstimaPoker, é sua solução perfeita para seu projeto Ágil!</p>
+              <p>EstimaPoker é sua solução perfeita para projetos Ágeis! Simplifique a estimativa de tarefas e fortaleça a colaboração da sua equipe.</p>
             </ContainerTexto>
             <ContainerBotao>
-              <ButtonMain text="Criar Sala"></ButtonMain>
-              <h1>botao2</h1>
+              <ButtonMain text="Criar Sala" bgColor="#000"></ButtonMain>
+              <ButtonMain text="Entrar em sala Existente" bgColor="#ec5353" color="#fff"></ButtonMain>
             </ContainerBotao>
           </ContainerConteudo>
         </Section>
